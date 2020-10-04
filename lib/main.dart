@@ -87,7 +87,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.blue,
                   ),
                   title: Text(
-                    'chihau@qbo.cl',
+                    'marcelo.mejias@usm.cl',
                     style: TextStyle(
                       color: Colors.blue,
                       fontSize: 18.0,
@@ -95,6 +95,8 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+
+              // La tarjeta nueva está acá//
               Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
@@ -114,6 +116,8 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              // Acá termina la nueva tarjeta
+
               Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
@@ -148,8 +152,9 @@ class MyApp extends StatelessWidget {
                     color: Colors.blue,
                   ),
                   title: Text(
-                    'Calle Falsa 123, Springfield',
+                    'Calle Falsa #123, Springfield',
                     style: TextStyle(
+                      color: Colors.blue,
                       fontSize: 18.0,
                     ),
                   ),

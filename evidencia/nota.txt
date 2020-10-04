@@ -1,0 +1,6 @@
+Codepen requiere una suscripción para usar
+Assets dentro de los proyectos, pero me aseguré de
+que la fuente nueva y la foto estuvieran en su lugar.
+
+Caso de que si se llega a ejecutar en un dispositivo/emulador
+no debería dar problemas de visualización.
