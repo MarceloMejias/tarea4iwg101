@@ -31,20 +31,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/chihau.png'),
+                backgroundImage: AssetImage('images/marcelo.png'),
               ),
               Text(
                 'Marcelo Mejías',
                 style: TextStyle(
                   fontSize: 40.0,
-                  fontFamily: 'Caveat',
+                  fontFamily: 'OpenSans',
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                 'Estudiante de Ingeniería Civil Informática',
                 style: TextStyle(
                   fontSize: 22.0,
-                  fontFamily: 'Caveat',
+                  fontFamily: 'Open Sans',
                   color: Colors.white,
                 ),
               ),
@@ -65,12 +65,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.call,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                   title: Text(
-                    '+56 9 999999999',
+                    '+56 9 12345678',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.blue,
                       fontSize: 18.0,
                     ),
                   ),
@@ -84,12 +84,31 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                   title: Text(
                     'chihau@qbo.cl',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.blue,
+                      fontSize: 18.0,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.audiotrack,
+                    color: Colors.blue,
+                  ),
+                  title: Text(
+                    'Synthwave',
+                    style: TextStyle(
+                      color: Colors.blue,
                       fontSize: 18.0,
                     ),
                   ),
@@ -104,15 +123,15 @@ class MyApp extends StatelessWidget {
                   leading: Text(
                     '@',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.blue,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   title: Text(
-                    'chihau',
+                    'marcelo.mejias',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.blue,
                       fontSize: 18.0,
                     ),
                   ),
@@ -126,12 +145,11 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.directions,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                   title: Text(
                     'Calle Falsa 123, Springfield',
                     style: TextStyle(
-                      color: Colors.red,
                       fontSize: 18.0,
                     ),
                   ),
